@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    color: #000000;
+}
+
+/* Header Styles */
+.main-header {
+    background: linear-gradient(90deg, #810000, #02115e); /* Degradado de #810000 a #02115e */
+    height: 70px;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    align-items: center;
+    padding: 0 20px; /* Espaciado lateral */
+}
+
+.header-text {
+    font-size: 1.8rem; /* Tamaño del texto */
+    color: #ffffff; /* Color blanco para el texto */
+    font-weight: 500; /* Grosor del texto */
+}
+
+
+body {
+    background-color: #f9f9f9;
+}
+
+.carousel-container {
+    padding: 20px 0; /* Espaciado superior e inferior del carousel */
+}
+
+.collection {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.collection .content {
+    height: 28rem;
+    width: 25rem;
+    background-color: #efeeee;
+    border: .2rem solid rgba(255,255,255,.1);
+    border-radius: .7rem;
+    border-bottom: .4rem solid #02115e;
+    border-top: .4rem solid #810000;
+    overflow: hidden;
+}
+
+.content img {
+    width: 100%;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-content h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.text-content p {
+    max-width: 22rem;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* .btn {
+    background-color: #0099ff;
+    padding: .2rem;
+    border: 2px solid #0099ff;
+    outline: none;
+    font-size: .8rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+} */
+
+.main-content {
+    padding: 50px 20px; /* Espaciado en la sección de contenido */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.main-content .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1b1f2a;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #1b1f2a;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #555;
+}
