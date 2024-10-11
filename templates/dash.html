@@ -23,7 +23,7 @@
   </header>
 
   <!-- carousel -->
-  <div >
+  <div>
     <section class="collection">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -84,7 +84,22 @@
         <p>Licenciatura en Administracion y Gestion Empresarial</p>
       </div>
     </section>
-    
+
+  </div>
+
+  <!-- Aqui pondremos la secccion de la directora de carrera -->
+  <div class="container2">
+
+    <img class="imgdirectora" src="{{ url_for('static', filename='images/Directora.jpg') }}" alt="Imagen Descripción">
+    <div class="info">
+<p><strong>DIRECTORA DE PROGRAMA EDUCATIVO</strong></p>
+<p> DRA. MARICARMEN RICO GALEANA </p>
+<p>101 9000 Ext. 306  </p>
+<p><strong>mariarmen.rico@upq.mx </strong></p>
+<p>RECEPCION LAGE</p>
+<p>101 9000 Ext. 306  </p>
+<p>recepcion@upq.edu.mx </p>
+</div>
   </div>
 
   <!-- cards de links -->
@@ -112,27 +127,28 @@
     </div>
   </div>
 
-<!-- CONTENIDO DE LA CARRERA -->
-<div class="container2">
-<div class="split-section">
-  <div class="split-left">
-    <img src="{{ url_for('static', filename='images/A.jpg') }}" alt="Imagen Descripción">
+  <!-- CONTENIDO DE LA CARRERA -->
+  <div class="container2">
+    <div class="split-section">
+      <div class="split-left">
+        <img src="{{ url_for('static', filename='images/A.jpg') }}" alt="Imagen Descripción">
+      </div>
+      <div class="split-right">
+        <h2 class="tituloMV">Misión</h2>
+        <p>
+          Formar profesionistas en Administración y Gestión Empresarial con la capacidad de ser agentes de cambio que
+          optimicen recursos de forma eficaz e impulsen el desarrollo organizacional en entidades socioeconómicas con un
+          perfil analítico e innovador, y con un pensamiento global y humano.
+          </strong>
+        </p>
+        <h2 class="tituloMV">Visión</h2>
+        <p> Ser para el 2025, el programa educativo referente en Administración y Gestión Empresarial en la entidad
+          queretana, con la finalidad de satisfacer las expectativas del alumnado y nuestras egresadas y egresados,
+          respondiendo de forma puntual e innovadora a las necesidades del mercado laboral e impulsando el
+          emprendedurismo en la gestión empresarial.</p>
+      </div>
+    </div>
   </div>
-  <div class="split-right">
-    <h2>presentacion de LAGE</h2>
-    <p>
-      contenido de LAGE y de mas cosas</strong>
-    </p>
-    <h3>algun otro apartado del contenido</h3>
-    <ul>
-      <li>Caracteristicas de LAGE</li>
-      <li>mas caracteristicas</li>
-      <li>mas caracteristicas</li>
-      <!-- Agrega más servicios aquí -->
-    </ul>
-  </div>
-</div>
-</div>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

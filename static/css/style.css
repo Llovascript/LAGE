@@ -232,3 +232,26 @@ body {
     margin-bottom: 10px;
   }
   
+.tituloMV {
+  text-align: center;
+
+}
+
+.imgdirectora {
+  width: 40% ;
+  height: auto;
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto; 
+}
+
+
+
+.info {
+  margin-top: 20px;
+  display: flex;               
+  justify-content: center;      
+  align-items: center;          
+  flex-direction: column;       
+}
