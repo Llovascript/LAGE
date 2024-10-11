@@ -18,12 +18,25 @@
     padding: 0 20px; /* Espaciado lateral */
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
 .header-text {
     font-size: 1.8rem; /* Tamaño del texto */
     color: #ffffff; /* Color blanco para el texto */
     font-weight: 500; /* Grosor del texto */
 }
 
+.logo {
+    max-height: 100%; /* Asegura que la imagen no exceda la altura del header */
+    max-width: 70px; /* Limita el ancho máximo de la imagen si es necesario */
+}
+
+  /* Dashboard */
 
 body {
     background-color: #f9f9f9;
@@ -42,18 +55,20 @@ body {
 }
 
 .collection .content {
-    height: 28rem;
+    height: 20rem;
     width: 25rem;
     background-color: #efeeee;
     border: .2rem solid rgba(255,255,255,.1);
     border-radius: .7rem;
-    border-bottom: .4rem solid #02115e;
+    border-bottom: .4rem solid #152a8f;
     border-top: .4rem solid #810000;
     overflow: hidden;
 }
 
 .content img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-bottom-left-radius: .6rem;
     border-bottom-right-radius: .6rem;
 }
@@ -66,7 +81,7 @@ body {
 }
 
 .text-content h3 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -116,3 +131,104 @@ body {
     font-size: 1.2em;
     color: #555;
 }
+
+/* Sección de la imagen - tarjetas de la nueva sección */
+.image-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+
+  /* seccion de div con imagen seccionada en 2 partes */
+  /* Estilos para el contenedor con sombra */
+.container2 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  /* Estilos para la sección dividida */
+  .split-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .split-left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .split-left img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  .split-right {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .split-right h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .split-right p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .split-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .split-right ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  

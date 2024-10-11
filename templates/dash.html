@@ -17,55 +17,57 @@
   <!-- Header -->
   <header class="main-header">
     <div class="header-content">
+      <img src="{{ url_for('static', filename='images/logoUPQ.svg') }}" alt="Logo UPQ" class="logo">
       <span class="header-text">LAGE</span>
     </div>
   </header>
 
+  <!-- carousel -->
   <div >
     <section class="collection">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image1.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_BIBLIOTECA.jpg') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image2.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_CIDEA.jpg') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image3.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_ED_A.png') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image4.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_ED_A1.png') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image5.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_ENTRADA.jpg') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/Image6.jpg') }}" alt="">
-            <div class="text-content">
+            <img src="{{ url_for('static', filename='images/UPQ_KAFE.jpg') }}" alt="">
+            <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -79,12 +81,58 @@
       <div class="container">
         <h1>Bienvenidos</h1>
         <h2>LAGE</h2>
-        <p>significado de lage</p>
+        <p>Licenciatura en Administracion y Gestion Empresarial</p>
       </div>
     </section>
     
   </div>
 
+  <!-- cards de links -->
+
+  <div class="image-section">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+          <h3>Título de la tarjeta 1</h3>
+          <p>Descripción breve y link</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>Título de la tarjeta 2</h3>
+          <p>Descripción breve y link</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>Título de la tarjeta 3</h3>
+          <p>Descripción breve y link</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- CONTENIDO DE LA CARRERA -->
+<div class="container2">
+<div class="split-section">
+  <div class="split-left">
+    <img src="{{ url_for('static', filename='images/A.jpg') }}" alt="Imagen Descripción">
+  </div>
+  <div class="split-right">
+    <h2>presentacion de LAGE</h2>
+    <p>
+      contenido de LAGE y de mas cosas</strong>
+    </p>
+    <h3>algun otro apartado del contenido</h3>
+    <ul>
+      <li>Caracteristicas de LAGE</li>
+      <li>mas caracteristicas</li>
+      <li>mas caracteristicas</li>
+      <!-- Agrega más servicios aquí -->
+    </ul>
+  </div>
+</div>
+</div>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
