@@ -88,18 +88,42 @@
   </div>
 
   <!-- Aqui pondremos la secccion de la directora de carrera -->
-  <div class="container2">
-
-    <img class="imgdirectora" src="{{ url_for('static', filename='images/Directora.jpg') }}" alt="Imagen Descripción">
-    <div class="info">
-<p><strong>DIRECTORA DE PROGRAMA EDUCATIVO</strong></p>
-<p> DRA. MARICARMEN RICO GALEANA </p>
-<p>101 9000 Ext. 306  </p>
-<p><strong>mariarmen.rico@upq.mx </strong></p>
-<p>RECEPCION LAGE</p>
-<p>101 9000 Ext. 306  </p>
-<p>recepcion@upq.edu.mx </p>
-</div>
+  <!-- <div class="container2">
+    <div class="card_container">
+      <article class="card_article">
+        <img class="card_img" src="{{ url_for('static', filename='images/Directora.jpg') }}" alt="image">
+        <div class="card_data">
+          <span class="card_description">DIRECTORA DE PROGRAMA EDUCATIVO</span>
+          <h2 class="card_title"></h2>
+          <div class="info">
+            <p><strong>DIRECTORA DE PROGRAMA EDUCATIVO</strong></p>
+            <p> DRA. MARICARMEN RICO GALEANA </p>
+            <p>101 9000 Ext. 306  </p>
+            <p><strong>mariarmen.rico@upq.mx </strong></p>
+            <p>RECEPCION LAGE</p>
+            <p>101 9000 Ext. 306  </p>
+            <p>recepcion@upq.edu.mx </p>
+          </div> 
+        </div>
+      </article>
+    </div>
+  </div> -->
+  <div class="container3">
+    <div class="card3">
+      <div class="face3 front3">
+        <img class="card_img" src="{{ url_for('static', filename='images/Directora.jpg') }}" alt="image">
+        <h3>DIRECTORA DE PROGRAMA EDUCATIVO</h3>
+      </div>
+      <div class="face3 back3">
+        <h3>DIRECTORA DE PROGRAMA EDUCATIVO</h3>
+        <p> DRA. MARICARMEN RICO GALEANA </p>
+        <p>101 9000 Ext. 306  </p>
+        <p><strong>mariarmen.rico@upq.mx </strong></p>
+        <p>RECEPCION LAGE</p>
+        <p>101 9000 Ext. 306  </p>
+        <p>recepcion@upq.edu.mx </p>
+      </div>
+    </div>
   </div>
 
   <!-- cards de links -->
@@ -108,20 +132,20 @@
     <div class="card-container">
       <div class="card">
         <div class="card-content">
-          <h3>Título de la tarjeta 1</h3>
-          <p>Descripción breve y link</p>
+          <h3>Guia de Procesos</h3>
+          <a href="{{ url_for('static', filename='pdf/PROCESOS.pdf') }}" download="PROCESOS.pdf">Descargar PROCESOS.pdf</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
-          <h3>Título de la tarjeta 2</h3>
-          <p>Descripción breve y link</p>
+          <h3>Directorio UPQ</h3>
+          <a href="{{ url_for('static', filename='pdf/GUIA DE LA DIRECCIÓN DE SERVICIOS ESTUDIANTILES.pdf') }}" download="PROCESOS.pdf">Descargar Guia de direccion.pdf</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
-          <h3>Título de la tarjeta 3</h3>
-          <p>Descripción breve y link</p>
+          <h3>Mapa curricular</h3>
+          <a href="{{ url_for('static', filename='pdf/UPQ_Mapa_Curricular_LAGE.pdf') }}" download="PROCESOS.pdf">Descargar Mapa Curricular.pdf</a>
         </div>
       </div>
     </div>
