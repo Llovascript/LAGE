@@ -286,6 +286,9 @@ body {
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  /* Efecto de desvanecimiento en los bordes */
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 .card3 .front3 h3{
