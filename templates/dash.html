@@ -28,42 +28,42 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_BIBLIOTECA.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/alumnoslage.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
             </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_CIDEA.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/lage2.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
             </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_ED_A.png') }}" alt="">
+            <img src="{{ url_for('static', filename='images/lage3.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
             </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_ED_A1.png') }}" alt="">
+            <img src="{{ url_for('static', filename='images/lage4.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
             </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_ENTRADA.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/lage5.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
             </div> -->
           </div>
           <div class="content swiper-slide">
-            <img src="{{ url_for('static', filename='images/UPQ_KAFE.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/lage6.jpg') }}" alt="">
             <!-- <div class="text-content">
               <h3>Photography</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus ratione nesciunt atque, dolores vel culpa debitis officia expedita unde?</p>
@@ -111,16 +111,16 @@
   <div class="container3">
     <div class="card3">
       <div class="face3 front3">
-        <img class="card_img" src="{{ url_for('static', filename='images/Directora.jpg') }}" alt="image">
-        <h3>DIRECTORA DE PROGRAMA EDUCATIVO</h3>
+        <img class="card_img" src="{{ url_for('static', filename='images/director_lage.png') }}" alt="image">
+        <h3>DIRECTOR DE PROGRAMA EDUCATIVO</h3>
       </div>
       <div class="face3 back3">
-        <h3>DIRECTORA DE PROGRAMA EDUCATIVO</h3>
-        <p> DRA. MARICARMEN RICO GALEANA </p>
-        <p>101 9000 Ext. 306  </p>
-        <p><strong>mariarmen.rico@upq.mx </strong></p>
+        <h3>M. en D.O.H.</h3>
+        <p>Miguel Ángel Viramontes Romero </p>
+        <p>1019000 ext. 321 </p>
+        <p><strong>gerardo.gonzalez@upq.mx</strong></p>
         <p>RECEPCION LAGE</p>
-        <p>101 9000 Ext. 306  </p>
+        <p>101 9000 Ext. 306 </p>
         <p>recepcion@upq.edu.mx </p>
       </div>
     </div>
@@ -133,19 +133,22 @@
       <div class="card">
         <div class="card-content">
           <h3>Guia de Procesos</h3>
-          <a href="{{ url_for('static', filename='pdf/PROCESOS.pdf') }}" download="PROCESOS.pdf">Descargar PROCESOS.pdf</a>
+          <a href="{{ url_for('static', filename='pdf/PROCESOS.pdf') }}" download="PROCESOS.pdf">Descargar
+            PROCESOS.pdf</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
           <h3>Directorio UPQ</h3>
-          <a href="{{ url_for('static', filename='pdf/GUIA DE LA DIRECCIÓN DE SERVICIOS ESTUDIANTILES.pdf') }}" download="PROCESOS.pdf">Descargar Guia de direccion.pdf</a>
+          <a href="{{ url_for('static', filename='pdf/GUIA DE LA DIRECCIÓN DE SERVICIOS ESTUDIANTILES.pdf') }}"
+            download="PROCESOS.pdf">Descargar Guia de direccion.pdf</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
           <h3>Mapa curricular</h3>
-          <a href="{{ url_for('static', filename='pdf/UPQ_Mapa_Curricular_LAGE.pdf') }}" download="PROCESOS.pdf">Descargar Mapa Curricular.pdf</a>
+          <a href="{{ url_for('static', filename='pdf/UPQ_Mapa_Curricular_LAGE.pdf') }}"
+            download="PROCESOS.pdf">Descargar Mapa Curricular.pdf</a>
         </div>
       </div>
     </div>
@@ -172,111 +175,115 @@
           emprendedurismo en la gestión empresarial.</p>
       </div>
     </div>
-  </div>
+  </div>  
 
   <!-- Contenedor para las nuevas secciones -->
-<div class="container-sections">
-  <div class="section">
+  <div class="container-sections">
+    <div class="section">
       <h3>Mapa Curricular</h3>
-      <p>Consulta el contenido del mapa curricular para la carrera.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='pdf/GGT_Mapa_curricular_2016.pdf') }}" download="GGT_Mapa_curricular_2016.pdf">Consulta el contenido del mapa curricular para la carrera.</a>
+    </div>
+    <div class="section">
       <h3>Plan de Asignatura</h3>
-      <p>Detalles del plan de asignatura para cada semestre.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='pdf/EJEMPLO_LLENADO_GUÍA_DE_ASIGNATURA.pdf') }}" download="EJEMPLO_LLENADO_GUÍA_DE_ASIGNATURA.pdf">Ejemplo de llenado guía de asignatura pdf.</a>
+      <br>
+      <br>
+      <a href="{{ url_for('static', filename='excel/EJEMPLO_LLENADO_PLAN_DE_ASIGNATURA.xlsx') }}" download="EJEMPLO_LLENADO_PLAN_DE_ASIGNATURA.xlsx">Ejemplo de llenado guía de asignatura excel.</a>
+    </div>
+    <div class="section">
       <h3>Guía de Asignatura</h3>
-      <p>Accede a las guías oficiales de las asignaturas.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='excel/PLAN_DE_ASIGNATURA_DE_LAGE_SD2025.xlsx') }}" download="PLAN_DE_ASIGNATURA_DE_LAGE_SD2025.xlsx">Accede a las guías oficiales de las asignaturas.</a>
+    </div>
+    <div class="section">
       <h3>Calendario Escolar</h3>
-      <p>Revisa las fechas importantes del ciclo escolar.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='pdf/Calendario_2024-2025.pdf') }}" download="Calendario_2024-2025.pdf">Revisa las fechas importantes del ciclo escolar.</a>
+      <p></p>
+    </div>
+    <div class="section">
       <h3>Asesorías</h3>
-      <p>Información sobre asesorías académicas.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='word/FORMATO_DE_ASESORÍAS_ACADÉMICAS_2024.docx') }}" download="FORMATO_DE_ASESORÍAS_ACADÉMICAS_2024.docx">Información sobre asesorías académicas.</a>
+    </div>
+    <div class="section">
       <h3>Formato Academia</h3>
-      <p>Plantillas y formatos para uso académico.</p>
-  </div>
-  <div class="section">
+      <a href="{{ url_for('static', filename='word/FORMATO_ACADEMIA.docx') }}" download="FORMATO_ACADEMIA.docx">Consulta el contenido del Formato de Academia.</a>
+    </div>
+    <div class="section">
       <h3>Manuales de Asignatura</h3>
       <p>Documentos para el aprendizaje y enseñanza.</p>
-  </div>
-  <div class="section">
+    </div>
+    <div class="section">
       <h3>Grupos y Horarios</h3>
       <p>Consulta los horarios y asignación de grupos.</p>
-  </div>
-  <div class="section">
+    </div>
+    <div class="section">
       <h3>Lista de Asistencia a Tutoría</h3>
       <p>Control de asistencia en tutorías académicas.</p>
-  </div>
-  <div class="section">
+    </div>
+    <div class="section">
       <h3>Códigos QR de Servicios Escolares</h3>
       <p>Accede rápidamente a servicios mediante códigos QR.</p>
+    </div>
   </div>
-</div>
 
 
   <div class="flipcards-container">
     <!-- Primera fila (3 flipcards) -->
     <div class="flipcard">
-        <div class="flipcard-inner">
-            <div class="flipcard-front">
-                <h3>Tarjeta 1</h3>
-            </div>
-            <div class="flipcard-back">
-                <p>Contenido trasero de la tarjeta 1</p>
-            </div>
+      <div class="flipcard-inner">
+        <div class="flipcard-front">
+          <h3>Tarjeta 1</h3>
         </div>
+        <div class="flipcard-back">
+          <p>Contenido trasero de la tarjeta 1</p>
+        </div>
+      </div>
     </div>
 
     <div class="flipcard">
-        <div class="flipcard-inner">
-            <div class="flipcard-front">
-                <h3>Tarjeta 2</h3>
-            </div>
-            <div class="flipcard-back">
-                <p>Contenido trasero de la tarjeta 2</p>
-            </div>
+      <div class="flipcard-inner">
+        <div class="flipcard-front">
+          <h3>Tarjeta 2</h3>
         </div>
+        <div class="flipcard-back">
+          <p>Contenido trasero de la tarjeta 2</p>
+        </div>
+      </div>
     </div>
 
     <div class="flipcard">
-        <div class="flipcard-inner">
-            <div class="flipcard-front">
-                <h3>Tarjeta 3</h3>
-            </div>
-            <div class="flipcard-back">
-                <p>Contenido trasero de la tarjeta 3</p>
-            </div>
+      <div class="flipcard-inner">
+        <div class="flipcard-front">
+          <h3>Tarjeta 3</h3>
         </div>
+        <div class="flipcard-back">
+          <p>Contenido trasero de la tarjeta 3</p>
+        </div>
+      </div>
     </div>
 
     <!-- Segunda fila (2 flipcards) -->
     <div class="flipcard">
-        <div class="flipcard-inner">
-            <div class="flipcard-front">
-                <h3>Tarjeta 4</h3>
-            </div>
-            <div class="flipcard-back">
-                <p>Contenido trasero de la tarjeta 4</p>
-            </div>
+      <div class="flipcard-inner">
+        <div class="flipcard-front">
+          <h3>Tarjeta 4</h3>
         </div>
+        <div class="flipcard-back">
+          <p>Contenido trasero de la tarjeta 4</p>
+        </div>
+      </div>
     </div>
 
     <div class="flipcard">
-        <div class="flipcard-inner">
-            <div class="flipcard-front">
-                <h3>Tarjeta 5</h3>
-            </div>
-            <div class="flipcard-back">
-                <p>Contenido trasero de la tarjeta 5</p>
-            </div>
+      <div class="flipcard-inner">
+        <div class="flipcard-front">
+          <h3>Tarjeta 5</h3>
         </div>
+        <div class="flipcard-back">
+          <p>Contenido trasero de la tarjeta 5</p>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
   <!-- Swiper JS -->
