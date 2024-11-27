@@ -433,3 +433,54 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
+.background-image {
+  width: 100%;
+  height: 100%; /* Ajusta automáticamente la altura */
+  display: block;
+  border-radius: 10px;
+  position: relative; /* Permite posicionar el texto sobre ella */
+  opacity: 0.9; /* Hace la imagen un poco transparente */
+}
+
+.flipcard-content {
+  position: relative; /* Para permitir la superposición del texto */
+  width: 100%;
+  height: 100%;
+}
+
+.flipcard-title {
+  position: absolute; /* Para que el texto se superponga sobre la imagen */
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste preciso del texto */
+  color: #ffffff; /* Asegura que el texto sea blanco */
+  font-size: 2rem; /* Tamaño del texto */
+  text-align: center; /* Centra el texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra negra para mejorar visibilidad */
+}
+
+/* General Footer Styles */
+.main-footer {
+  background: linear-gradient(90deg, #810000, #02115e); /* Degradado */
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Apilar elementos verticalmente */
+  padding: 20px 0; /* Espaciado arriba y abajo */
+}
+
+.footer-content {
+  text-align: center; /* Centrar contenido del footer */
+}
+
+.footer-content .logo {
+  height: 70px; /* Incrementa el tamaño del logo */
+  margin-bottom: 10px; /* Espacio entre logo y texto */
+}
+
+.footer-text {
+  font-size: 20px; /* Haz el texto un poco más grande */
+  font-weight: bold; /* Texto en negrita */
+  color: white; /* Color del texto */
+  margin-top: 5px; /* Ajusta el espacio entre el texto y el logo */
+}
